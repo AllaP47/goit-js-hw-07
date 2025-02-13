@@ -1,3 +1,15 @@
+const categoriesList = document.querySelector("#categories");
+const categoryItems = categoriesList.querySelectorAll(".item");
+
+console.log(`Number of categories: ${categoryItems.length}`);
+
+categoryItems.forEach(category => {
+    const title = category.querySelector("h2").textContent;
+    const itemsCount = category.querySelectorAll("ul li").length;
+    console.log(`Category: ${title}`);
+    console.log(`Elements: ${itemsCount}`);
+});
+
 const images = [
   {
     url: "https://images.pexels.com/photos/140134/pexels-photo-140134.jpeg?dpr=2&h=750&w=1260",
