@@ -12,6 +12,9 @@ body {
   color: #212121;
   line-height: 1.5;
 }
-ul {
-  flex-basis: calc((100% - 2 * 24px) / 3);
+.gallery {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  align-items: center;
+  justify-content: center;
 }

@@ -41,3 +41,17 @@ gallery.insertAdjacentHTML(
     )
     .join("")
 );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
