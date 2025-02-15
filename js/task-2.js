@@ -29,7 +29,7 @@ const gallery = document.querySelector(".gallery");
 
 gallery.style.display = "flex";
 gallery.style.flexWrap = "wrap";
-gallery.style.gap = "10px";
+gallery.style.gap = "24px";
 gallery.style.listStyle = "none";
 
 gallery.insertAdjacentHTML(
@@ -37,7 +37,7 @@ gallery.insertAdjacentHTML(
   images
     .map(
       ({ url, alt }) =>
-        `<li><img src="${url}" alt="${alt}" style="width: 200px; height: auto; border-radius: 10px;"></li>`
+        `<li><img src="${url}" alt="${alt}" style="width: 360px; height: 300px; border-radius: 10px;"></li>`
     )
     .join("")
 );

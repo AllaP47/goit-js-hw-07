@@ -12,3 +12,6 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+ul {
+  flex-basis: calc((100% - 2 * 24px) / 3);
+}
